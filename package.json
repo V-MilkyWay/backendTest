@@ -1,0 +1,19 @@
+{
+    "type": "module",
+    "name": "backtest",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "NODE_ENV='production' nodemon index.js",
+        "dev": "NODE_ENV='development' nodemon index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^14.3.0",
+        "koa": "^2.13.4",
+        "nodemon": "^2.0.15"
+    }
+}
